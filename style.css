@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900;&display=swap');
+a { color: black;
+		}
+	
+* 
+	
+	{
+	margin: 50;
+	
+	box-sizing: border-box;
+	font-family: 'poppins',calibri;
+}	
+    body {
+		font-size: 20px;
+    	background: lightblue;
+		background-image: url("image.jpeg");
+		text-shadow: 2px,2px;
+		background-repeat: no-repeat;
+		background-position: right top;
+    	color: gray;
+		text-align: justify;
+		padding-top: 50px;
+		padding-right: 30px;
+		padding-bottom: 50px;
+		padding-left: 80px;
+		
+    
+	}
+ .header {
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	padding: 20px 10%;
+ 	background: transparent;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: 100%;
+ 	z-index: 100;
+ }
+.column {
+  float: left;
+  width: 33.33%;
+}
+ .logo {
+ 	font:1em sans-serif;
+ 	font-size: 20px;
+ 	left: 0%;
+ 	
+ 	color: gray;
+
+ }
+
+.navbar a {
+     font-size: 18px;
+     color: azure;
+     text-decoration: none;
+     font-weight: 500;
+     margin-left: 35px;
+     transition: 3s;
+}
+
+.navbar a:hover {
+.navbar a.active
+	color.black
+}
+
+.home {
+	height: 100vh;
+	background: url('home.jpg') no-repeat;
+	background-size: cover;
+	background-position:left;
+
+	display: flex;
+	align-items: left;
+	padding: ;
+}
+
+.home-content h1 {
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.home-content h3 {
+	font-size: 32;
+	font-weight: 70;
+	color: bisque;
+
+}
+
+
+
+.home-content p {
+	font-size: 16px;
+	margin: 20px 0 40px;
+}
+
+.home-content .btn-box {
+	display: flex;
+	justify-content: space-between;
+	width: 345px;
+	height: 50px;
+	
+}
+
+.img {
+  width: 0px;
+ padding-top: 20px;
+  vertical-align: baseline;
+  border-radius: 50%;
+} 
+	
+
+
+
+
+
+
+
+
+
+
+
